@@ -1,10 +1,8 @@
-package smartPoint;
 import java.util.Scanner;
 
 public class HomeTask {
 
 	public static void main(String[] args) {
-
 		Scanner scan = new Scanner(System.in);
 //		String inPut = scan.nextLine();
 //		if (iituF(inPut)) {
@@ -70,12 +68,6 @@ public class HomeTask {
 		String number = findLineMax(inPutLine);
 		System.out.println(outPutNumber(number));
 		scan.close();
-		//String s1, s2, s3;
-		//10012
-		//10011
-		//
-		//1 - '49'
-		//2 - '50'
 	}
 	static String outPutNumber( String number) {
 		String numberOut = "";
